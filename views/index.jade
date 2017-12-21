@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  h3 Welcome to #{title}
+  p #{subTitle}
+  br
+  br
+  p @config file location ( config/hostConfig.js )
+  br
+  p #{configFileName}
+  pre #{config}
+  
